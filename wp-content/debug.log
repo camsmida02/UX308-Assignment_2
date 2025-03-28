@@ -1,1 +1,21 @@
 [13-Mar-2025 23:24:30 UTC] PHP Warning:  Undefined array key "host" in /workspaces/UX308-Lab6/.wordpress/wp-includes/pluggable.php on line 1625
+[28-Mar-2025 04:00:03 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/UX308-Assignment_2/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[28-Mar-2025 04:09:18 UTC] PHP Parse error:  Unmatched '}' in /workspaces/UX308-Assignment_2/.wordpress/wp-content/themes/chatbot/functions.php on line 17
+[28-Mar-2025 04:09:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /workspaces/UX308-Assignment_2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[28-Mar-2025 04:09:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /workspaces/UX308-Assignment_2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[28-Mar-2025 04:09:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_string_contains() in /workspaces/UX308-Assignment_2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:454
+Stack trace:
+#0 /workspaces/UX308-Assignment_2/.wordpress/wp-includes/class-wp-hook.php(324): IC_EPC_Tracking->paused_plugin_report_email(Array, 'http://localhos...')
+#1 /workspaces/UX308-Assignment_2/.wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /workspaces/UX308-Assignment_2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php(223): apply_filters('recovery_mode_e...', Array, 'http://localhos...')
+#3 /workspaces/UX308-Assignment_2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php(62): WP_Recovery_Mode_Email_Service->send_recovery_mode_email(86400, Array, Array)
+#4 /workspaces/UX308-Assignment_2/.wordpress/wp-includes/class-wp-recovery-mode.php(185): WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email(86400, Array, Array)
+#5 /workspaces/UX308-Assignment_2/.wordpress/wp-includes/class-wp-fatal-error-handler.php(55): WP_Recovery_Mode->handle_error(Array)
+#6 [internal function]: WP_Fatal_Error_Handler->handle()
+#7 {main}
+  thrown in /workspaces/UX308-Assignment_2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 454
+[28-Mar-2025 04:11:20 UTC] PHP Parse error:  Unmatched '}' in /workspaces/UX308-Assignment_2/.wordpress/wp-content/themes/chatbot/functions.php on line 17
+[28-Mar-2025 04:12:20 UTC] PHP Parse error:  Unmatched '}' in /workspaces/UX308-Assignment_2/.wordpress/wp-content/themes/chatbot/functions.php on line 17
+[28-Mar-2025 04:13:22 UTC] PHP Parse error:  Unmatched '}' in /workspaces/UX308-Assignment_2/.wordpress/wp-content/themes/chatbot/functions.php on line 17
+[28-Mar-2025 04:13:39 UTC] PHP Parse error:  Unmatched '}' in /workspaces/UX308-Assignment_2/.wordpress/wp-content/themes/chatbot/functions.php on line 17
+[28-Mar-2025 04:13:51 UTC] PHP Parse error:  Unmatched '}' in /workspaces/UX308-Assignment_2/.wordpress/wp-content/themes/chatbot/functions.php on line 17
